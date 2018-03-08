@@ -1,7 +1,7 @@
 import os
 import crypt
 import MySQLdb
-def db():
+def db()
 	try:
 	   ip=raw_input("Enter the Storage IP ::: ")
 	   s=raw_input("Enter the server name ::: ")
