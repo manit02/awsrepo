@@ -20,6 +20,6 @@ def db():
 	   os.system("gunzip /home/manish/Desktop/"+dt+mth+".sql.gz")
 	   os.chdir("/home/manish/Desktop/")
 	   os.system("mysql -w -f mydata -h 192.168.9.99 -uroot -p123 --verbose < "+dt+mth+".sql")
-	except IOError:
+	except IOError
            print ("I/O Error")
 db()
